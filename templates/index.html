@@ -1,3 +1,117 @@
-<h1>Hello, World! This is coming from the index.html file!</h1>
-<h3>{{ the_date }}</h3>
-<a href="/job">Job Requirements</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryker Sparks - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+        .contact-info, .summary, .experience, .education, .skills {
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #0073b1;
+            text-decoration: none;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+        .experience-item h3, .education-item h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .experience-item p, .education-item p {
+            margin: 5px 0;
+        }
+        .skills ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills ul li {
+            background: #003366;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px 0;
+            display: inline-block;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ryker Sparks</h1>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:nspars201@gmail.com">nspars201@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ryker-sparks-326170286">linkedin.com/in/ryker-sparks-326170286</a></p>
+        </div>
+
+        <div class="section summary">
+            <h2>Summary</h2>
+            <p>I am an Information Systems major studying at Utah State University. I have taken multiple technology courses, including AP Computer Science, which has equipped me with the necessary skills for the field. Currently seeking an internship in cybersecurity.</p>
+        </div>
+
+        <div class="section experience">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <h3>R1 RCM - Registrar</h3>
+                <p>Feb 2024 - Present | Logan, Utah, United States</p>
+                <p>Responsibilities: Register patients, verify insurance, collect payments, and ensure patient comfort during the process.</p>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Integra Financial Services - Customer Service Representative</h3>
+                <p>Oct 2023 - Jan 2024 | Logan, Utah, United States</p>
+                <p>Responsibilities: Address customer problems, work collaboratively in a team, handle inbound and outbound calls.</p>
+            </div>
+            
+            <div class="experience-item">
+                <h3>Young Toyota - Auto Detailer</h3>
+                <p>Aug 2021 - Sep 2023 | Logan, Utah, United States</p>
+                <p>Responsibilities: Conduct vehicle inspections, coordinate team activities, and maintain detailing equipment.</p>
+            </div>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Utah State University</h3>
+                <p>Bachelor's degree in Computer Science | Aug 2023 - May 2027</p>
+            </div>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Customer Service</li>
+                <li>Verbal De-escalation</li>
+                <li>Software Knowledge</li>
+            </ul>
+        </div>
+	<a href = "/job">Job Requirements</a>
+    </div>
+</body>
+</html>
